@@ -21,6 +21,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'tiny_tds'
+gem 'activerecord-sqlserver-adapter'
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
